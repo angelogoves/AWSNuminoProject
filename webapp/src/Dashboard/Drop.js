@@ -8,8 +8,8 @@ const S3_BUCKET = "angelowebapp";
 const REGION = "ap-south-1";
 
 AWS.config.update({
-  accessKeyId: "AKIA2CSKJZP7FMBLGNMQ",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
 });
 
 const myBucket = new AWS.S3({
