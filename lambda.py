@@ -9,11 +9,11 @@ def main():
     excel.to_dict(orient='records')
     # excel = pd.DataFrame(excel)
     sql = "SELECT * FROM student;"
-    conn = mc.connect(host="webapp.chd6y8koxcwf.ap-south-1.rds.amazonaws.com",
-                      user="angelo",
-                      password="angelogoves",
+    conn = mc.connect(host="",
+                      user="",
+                      password="",
                       port=3306,
-                      database="ANGELO", )
+                      database="", )
     cursor = conn.cursor()
     cursor.execute(sql)
     data = cursor.fetchall()
