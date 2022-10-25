@@ -9,11 +9,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 const db = mysql.createConnection({
-  host: "webapp.chd6y8koxcwf.ap-south-1.rds.amazonaws.com",
-  user: "angelo",
-  password: "angelogoves",
+  host: "",
+  user: "",
+  password: "",
   port: 3306,
-  database: "ANGELO",
+  database: "",
   multipleStatements: true,
 });
 db.connect((err) => {
